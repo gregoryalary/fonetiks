@@ -1,25 +1,46 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+// i18n
+import './app/i18n/i18n';
+
+// Routing
+import {
+  createBrowserRouter,
+  RouterProvider,
+  createRoutesFromElements,
+  Route,
+} from 'react-router-dom';
+
+// Components
+import App from './app/screens/App';
+import Home from './home/screens/Home';
+
+// Styling
 import './index.css';
-import App from './App';
+
+// Utils
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import FindPhoneme from './find-phoneme/screens/FindPhoneme';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<App />}>
+      <Route path="" element={<Home />} />
+      <Route path="excercice">
+        <Route path="find-phoneme" element={<FindPhoneme />} />
+      </Route>
+    </Route>,
+  ),
 );
+
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>,
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://cra.link/PWA
 serviceWorkerRegistration.unregister();
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

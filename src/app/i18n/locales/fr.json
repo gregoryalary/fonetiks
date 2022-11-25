@@ -1,0 +1,101 @@
+{
+    "home": {
+        "introduction": {
+            "body": "Pellentesque tristique sit amet lacus quis malesuada. Pellentesque aliquet diam non imperdiet interdum.",
+            "title": "Bienvenue sur Fonetiks !"
+        },
+        "excercices": {
+            "find_phoneme": {
+                "description": "Aenean euismod odio eu elit varius, vitae ultrices nibh convallis. Praesent ullamcorper nibh in pretium laoreet.",
+                "title": "Trouver le phonème"
+            },
+            "open": "Lancer",
+            "title": "Excercices"
+        }
+    },
+    "phoneme": {
+        "question_prefix": "Quelle phonème est",
+        "question_suffix": "?",
+        "parameters": {
+            "isOcclusive": {
+                "true": "occlusif",
+                "false": "constrictif"
+            },
+            "consonnantArticulationPlace": {
+                "bilabial": "bilabial",
+                "apico_alveodental": "apico-alvéodental",
+                "dorso_palatal": "dorso-palatal",
+                "dorso_velaire": "dorso-vélaire",
+                "labio_dental": "labio-dental",
+                "pre_dorso_alvoelaire": "prédorso-alvéolaire",
+                "post_alvoelaire": "post-alvéolaire",
+                "apico_alvoelaire": "apico-alvéolaire",
+                "dorso_uvulaire": "dorso-uvulaire"
+            },
+            "isVoiced": {
+                "true": "voisé",
+                "false": "non voisé"
+            },
+            "isNazalised": {
+                "true": "nasal",
+                "false": "oral"
+            },
+            "isLabialased": {
+                "true": "labialisé",
+                "false": "non labialisé"
+            },
+            "aperture": {
+                "closed": "fermé",
+                "semi_closed": "semi fermé",
+                "opened": "ouvert",
+                "semi_opened": "semi ouvert"
+            },
+            "articulationPlaceIsPosterior": {
+                "true": "postérieur",
+                "false": "antérieur"
+            },
+            "semiVowelArticulationPlace": {
+                "dorso_palatal": "dorso-palatal",
+                "dorso_velaire": "dorso-vélaire"
+            }
+        }
+    },
+    "find_phoneme": {
+        "game": {
+            "round": "Tour {{current}} / {{max}}",
+            "right": "Tout juste !",
+            "correction": "Le bon phonème était : {{symbol}}",
+            "next": "Suivant"
+        },
+        "result": {
+            "title": "Partie terminée",
+            "score": "Score : {{score}} / {{max}}",
+            "bad_answers": {
+                "title_one": "Mauvaise réponse",
+                "title_other": "Mauvaises réponses",
+                "guessed": "Vous avez répondu {{symbol}}",
+                "to_guess": "La bonne réponse etait {{symbol}}"
+            },
+            "replay": "Rejouer"
+        },
+        "settings": {
+            "round": "Nombre de tours",
+            "include": {
+                "vowel": "Voyelles",
+                "consonant": "Consonnes",
+                "semi_vowel": "Semi-voyelles"
+            },
+            "form": {
+                "round": {
+                    "placeholder": "$t(find_phoneme.settings.round)",
+                    "error": "Veuillez renseigner un nombre entre {{min}} et {{max}}"
+                },
+                "include": {
+                    "name": "Phonèmes inclus",
+                    "error": "Veuillez renseigner au moins une catégorie de phonème"
+                }
+            }
+        }
+    },
+    "title": "Fonetiks"
+}
