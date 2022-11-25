@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fonetiks/precache-manifest.110c4fb1dab89bc16f47330211731e7b.js"
+  "/fonetiks/precache-manifest.f79c6d6d28e382b4e9c83a90b155f54d.js"
 );
 
 workbox.clientsClaim();
