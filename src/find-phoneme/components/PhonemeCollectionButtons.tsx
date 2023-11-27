@@ -85,14 +85,14 @@ const PhonemeCollectionButtons: FC<Props> = ({
       highlightedPhoneme={highlightedPhoneme}
     />
     )}
-    {settings.include.semiVowel && (
+    {/* settings.include.semiVowel && (
     <PhonemeCollectionCategory
       phonemes={collection.semiVowels}
       title="Semi-voyelles"
       onClick={onClick}
       highlightedPhoneme={highlightedPhoneme}
     />
-    )}
+    ) */}
   </Stack>
 );
 

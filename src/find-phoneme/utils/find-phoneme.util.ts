@@ -11,7 +11,7 @@ export const findAvailablePhonemesFromSettings = (
 ): Phoneme[] => [
   ...(settings.include.consonant ? collection.consonnants : []),
   ...(settings.include.vowel ? collection.vowels : []),
-  ...(settings.include.semiVowel ? collection.semiVowels : []),
+  // ...(settings.include.semiVowel ? collection.semiVowels : []),
 ];
 
 export const getRandomPhonemeInCollectionFromSettings = (

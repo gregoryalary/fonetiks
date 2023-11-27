@@ -1,7 +1,6 @@
 // Types
 import {
-  ConsonnantArticulationPlace, ConsonnantPhoneme, PhonemeCollection,
-  SemiVowelArticulationPlace, VowelAperture,
+  ConsonnantArticulationPlace, ConsonnantPhoneme, PhonemeCollection, VowelAperture,
 } from '../types/phoneme.type';
 
 // eslint-disable-next-line import/prefer-default-export
@@ -259,7 +258,7 @@ export const getPhonemes = (): PhonemeCollection => {
       },
       {
         isVowel: true,
-        symbol: 'ɛ',
+        symbol: 'ɛ̃',
         aperture: VowelAperture.SemiOpened,
         articulationPlaceIsPosterior: false,
         isLabialased: false,
@@ -267,7 +266,7 @@ export const getPhonemes = (): PhonemeCollection => {
       },
       {
         isVowel: true,
-        symbol: 'œ',
+        symbol: 'œ̃',
         aperture: VowelAperture.SemiOpened,
         articulationPlaceIsPosterior: false,
         isLabialased: true,
@@ -275,7 +274,7 @@ export const getPhonemes = (): PhonemeCollection => {
       },
       {
         isVowel: true,
-        symbol: 'ɔ',
+        symbol: 'ɔ̃',
         aperture: VowelAperture.SemiOpened,
         articulationPlaceIsPosterior: true,
         isLabialased: true,
@@ -291,14 +290,14 @@ export const getPhonemes = (): PhonemeCollection => {
       },
       {
         isVowel: true,
-        symbol: 'a',
+        symbol: 'ɑ̃',
         aperture: VowelAperture.Opened,
         articulationPlaceIsPosterior: true,
         isLabialased: true,
         isNazalised: true,
       },
     ],
-    semiVowels: [
+    /* semiVowels: [
       {
         isSemiVowel: true,
         symbol: 'ɥ',
@@ -320,6 +319,6 @@ export const getPhonemes = (): PhonemeCollection => {
         semiVowelArticulationPlace: SemiVowelArticulationPlace.DorsoVelaire,
         isLabialased: true,
       },
-    ],
+    ], */
   };
 };

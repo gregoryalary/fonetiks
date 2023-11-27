@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-shadow */
-import React, { FC, useState } from 'react';
+import React, { FC, useEffect, useState } from 'react';
 
 // MUI
 import {
@@ -111,6 +111,12 @@ const FindPhonemeGame: FC<Props> = ({ settings, onGameIsEnded }) => {
       goToNextRound(state, guessedPhoneme);
     }
   };
+
+  useEffect(() => {
+    if (showSuccessAlert) {
+      setTimeout(() => setShowSuccessAlert(false), 1000);
+    }
+  }, [showSuccessAlert]);
 
   if (state.type === StateType.Guessing || state.type === StateType.Correcting) {
     return (

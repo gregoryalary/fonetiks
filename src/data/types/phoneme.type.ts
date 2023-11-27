@@ -53,5 +53,5 @@ export interface SemiVowelPhoneme extends Phoneme {
 export interface PhonemeCollection {
   consonnants: ConsonnantPhoneme<boolean>[]
   vowels: VowelPhoneme[]
-  semiVowels: SemiVowelPhoneme[]
+  // semiVowels: SemiVowelPhoneme[]
 }

@@ -127,7 +127,7 @@ const FindPhonemeSettingsForm: FC<Props> = ({ onSubmit }) => {
                 )}
                 label={t('find_phoneme.settings.include.vowel')}
               />
-              <FormControlLabel
+              {/* <FormControlLabel
                 control={(
                   <Checkbox
                     name="include.semiVowel"
@@ -137,7 +137,7 @@ const FindPhonemeSettingsForm: FC<Props> = ({ onSubmit }) => {
                   />
                 )}
                 label={t('find_phoneme.settings.include.semi_vowel')}
-              />
+                /> */}
               {errors.include && (<FormHelperText>{t('find_phoneme.settings.form.include.error')}</FormHelperText>)}
             </FormGroup>
           </FormControl>

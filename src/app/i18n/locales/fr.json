@@ -23,14 +23,14 @@
             },
             "consonnantArticulationPlace": {
                 "bilabial": "bilabial",
-                "apico_alveodental": "apico-alvéodental",
-                "dorso_palatal": "dorso-palatal",
-                "dorso_velaire": "dorso-vélaire",
+                "apico_alveodental": "(apico-)alvéodental",
+                "dorso_palatal": "(dorso-)palatal",
+                "dorso_velaire": "(dorso-)vélaire",
                 "labio_dental": "labio-dental",
                 "pre_dorso_alvoelaire": "prédorso-alvéolaire",
                 "post_alvoelaire": "post-alvéolaire",
-                "apico_alvoelaire": "apico-alvéolaire",
-                "dorso_uvulaire": "dorso-uvulaire"
+                "apico_alvoelaire": "(apico-)alvéolaire",
+                "dorso_uvulaire": "(dorso-)uvulaire"
             },
             "isVoiced": {
                 "true": "voisé",
@@ -46,9 +46,9 @@
             },
             "aperture": {
                 "closed": "fermé",
-                "semi_closed": "semi fermé",
+                "semi_closed": "semi-fermé",
                 "opened": "ouvert",
-                "semi_opened": "semi ouvert"
+                "semi_opened": "semi-ouvert"
             },
             "articulationPlaceIsPosterior": {
                 "true": "postérieur",
