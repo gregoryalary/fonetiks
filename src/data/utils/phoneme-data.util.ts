@@ -259,7 +259,7 @@ export const getPhonemes = (): PhonemeCollection => {
       },
       {
         isVowel: true,
-        symbol: '̃ɜ',
+        symbol: 'ɛ',
         aperture: VowelAperture.SemiOpened,
         articulationPlaceIsPosterior: false,
         isLabialased: false,
@@ -267,7 +267,7 @@ export const getPhonemes = (): PhonemeCollection => {
       },
       {
         isVowel: true,
-        symbol: '̃œ',
+        symbol: 'œ',
         aperture: VowelAperture.SemiOpened,
         articulationPlaceIsPosterior: false,
         isLabialased: true,
@@ -275,7 +275,7 @@ export const getPhonemes = (): PhonemeCollection => {
       },
       {
         isVowel: true,
-        symbol: '̃ɔ',
+        symbol: 'ɔ',
         aperture: VowelAperture.SemiOpened,
         articulationPlaceIsPosterior: true,
         isLabialased: true,
@@ -291,7 +291,7 @@ export const getPhonemes = (): PhonemeCollection => {
       },
       {
         isVowel: true,
-        symbol: '̃̃a',
+        symbol: 'a',
         aperture: VowelAperture.Opened,
         articulationPlaceIsPosterior: true,
         isLabialased: true,

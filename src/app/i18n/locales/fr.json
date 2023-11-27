@@ -1,12 +1,12 @@
 {
     "home": {
         "introduction": {
-            "body": "Pellentesque tristique sit amet lacus quis malesuada. Pellentesque aliquet diam non imperdiet interdum.",
+            "body": "Un espace interactif pour réviser les sciences du langage.",
             "title": "Bienvenue sur Fonetiks !"
         },
         "excercices": {
             "find_phoneme": {
-                "description": "Aenean euismod odio eu elit varius, vitae ultrices nibh convallis. Praesent ullamcorper nibh in pretium laoreet.",
+                "description": "Retrouvez le phonème à partir de ses caractéristiques",
                 "title": "Trouver le phonème"
             },
             "open": "Lancer",
@@ -73,8 +73,8 @@
             "bad_answers": {
                 "title_one": "Mauvaise réponse",
                 "title_other": "Mauvaises réponses",
-                "guessed": "Vous avez répondu {{symbol}}",
-                "to_guess": "La bonne réponse etait {{symbol}}"
+                "guessed": "Vous avez répondu : {{symbol}}",
+                "to_guess": "La bonne réponse etait : {{symbol}}"
             },
             "replay": "Rejouer"
         },

@@ -44,7 +44,7 @@ const FindPhonemeResults: FC<Props> = ({ playedRounds, onReplay }) => {
           <Typography>
             {t('find_phoneme.result.bad_answers.title', { count: wrongAnswers.length })}
           </Typography>
-          <Stack spacing={1} sx={{ paddingLeft: 1 }}>
+          <Stack spacing={1}>
             {wrongAnswers.map((wrongAnswer) => (
               <Box sx={{
                 border: 1,
@@ -69,7 +69,7 @@ const FindPhonemeResults: FC<Props> = ({ playedRounds, onReplay }) => {
         </Stack>
       )}
       <Button onClick={onReplay}>
-        {t('find_phoneme.result.replay.to_guess')}
+        {t('find_phoneme.result.replay')}
       </Button>
     </Stack>
   );
